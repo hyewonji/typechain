@@ -1,0 +1,13 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/hyewonji/typechain.git",
+  "author": "hyewonji <60416187+hyewonji@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
