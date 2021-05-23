@@ -20,3 +20,9 @@ node.js는 TypeScript를 이해하지 못해서 TS를 JS로 컴파일 하는 작
 
 - 위 코드에 따라 모든 TS는 src로, 모든 컴파일된 파일은 dist로 들어간다.
 - `yarn start` 실행시, src에서 변경사항이 있다면 dist파일이 수정된다.
+
+### interface
+
+- interface를 `변수의 타입체크`를 위해 사용된다.
+- interface는 **JS로 컴파일 되지 않는다.**(.ts의 interface가 .js에는 존재하지 않는다.)
+- .js에 interface를 넣고 싶을때는 `class`를 사용한다.
