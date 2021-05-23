@@ -26,3 +26,8 @@ node.js는 TypeScript를 이해하지 못해서 TS를 JS로 컴파일 하는 작
 - interface를 `변수의 타입체크`를 위해 사용된다.
 - interface는 **JS로 컴파일 되지 않는다.**(.ts의 interface가 .js에는 존재하지 않는다.)
 - .js에 interface를 넣고 싶을때는 `class`를 사용한다.
+
+### class
+
+- public, private : private의 경우, class 내부에서만 변수를 사용할 수 있어 정보를 보호할 수 있다.
+- constructor : class가 시작될 대마다 호출 되는 메서드
