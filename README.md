@@ -31,3 +31,8 @@ node.js는 TypeScript를 이해하지 못해서 TS를 JS로 컴파일 하는 작
 
 - public, private : private의 경우, class 내부에서만 변수를 사용할 수 있어 정보를 보호할 수 있다.
 - constructor : class가 시작될 대마다 호출 되는 메서드
+
+### Create a New Block
+
+1. 새로운 블록을 만들기 위해서는 해쉬를 계산해야 한다.
+2. Hash값을 계산하는 static method을 Block안에 생성한다.(Block 클래스 안에서 항상 사용 가능한 method)
